@@ -66,6 +66,7 @@ static const basic_key_handling_keybinding_t basic_key_handling_keybindings[] = 
   // spawn
   {MODKEY, XK_Return, wm_spawn, STRING, "st"},
   {MODKEY, XK_r, wm_spawn, STRING, "dmenu_run"},
+  {MODKEY, XK_p, wm_spawn, STRING, "passmenu"},
   {MODKEY, XK_c, wm_spawn, STRING, "chromium"},
   {MODKEY, XK_e, wm_spawn, STRING, "st -e ranger"},
   {MODKEY, XK_s, wm_spawn, STRING, "i3lock -c 000000 && systemctl suspend"},
